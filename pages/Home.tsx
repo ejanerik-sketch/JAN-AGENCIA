@@ -46,8 +46,8 @@ const Home: React.FC = () => {
       <section className="py-10 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
           {[
-            { value: '12+', label: 'Contratos Fixos' },
-            { value: 'R$ 220k+', label: 'MRR Projetado' },
+            { value: '50+', label: 'Empresas Atendidas' },
+            { value: '300+', label: 'Projetos Realizados' },
             { value: '100%', label: 'Foco em ROI' },
             { value: 'IA', label: 'Nativo Digital' }
           ].map((item, index) => (
