@@ -7,6 +7,7 @@ import BlogPost from './pages/BlogPost';
 import Cases from './pages/Cases';
 import CaseStudy from './pages/CaseStudy';
 import Admin from './pages/Admin';
+import ServiceDetail from './pages/ServiceDetail';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/cases" element={<Cases />} />
           <Route path="/cases/:slug" element={<CaseStudy />} />
+          <Route path="/servicos/:slug" element={<ServiceDetail />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
       </Router>

@@ -22,12 +22,9 @@ export const COLORS = {
 };
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'Início', href: '/' },
-  { label: 'Quem Somos', href: '/#about' },
-  { label: 'Cases', href: '/cases' },
-  { label: 'Serviços', href: '/#services' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Contato', href: '/#contact' },
+  { label: 'Início', href: '/#inicio' },
+  { label: 'Quem Somos', href: '/#sobre' },
+  { label: 'Serviços', href: '/#solucoes' },
 ];
 
 export const SERVICES: ServiceItem[] = [
